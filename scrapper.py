@@ -6,8 +6,9 @@ from selenium import webdriver
 from selenium.common.exceptions import NoSuchElementException, WebDriverException
 from webdriver_manager.chrome import ChromeDriverManager
 
-TWITTER_USERNAME = os.getenv('TWITTER_USERNAME')
-TWITTER_PASSWORD = os.getenv('TWITTER_PASSWORD')
+
+# TWITTER_USERNAME = os.getenv('TWITTER_USERNAME')
+# TWITTER_PASSWORD = os.getenv('TWITTER_PASSWORD')
 
 
 def get_driver(username):
